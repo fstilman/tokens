@@ -12,7 +12,7 @@
 ;; tokens.el provides functions for matching well-known elements on
 ;; the current line and saving them to the kill ring, for easy
 ;; yanking.  Tokens or elements are easily customizable through
-;; regular expressions. Included are regular expressions for matching
+;; regular expressions.  Included are regular expressions for matching
 ;; numbers, emails and IP addresses.
 
 ;;; Code:
@@ -26,7 +26,7 @@
       (email . "\\b[A-Za-z0-9]+@[A-Za-z0-9]+\\.[A-Za-z]\\{2,\\}\\b")
       (ip . "\\b\\(25[0-5]\\|2[0-4][0-9]\\|[01]?[0-9][0-9]?\\)\\.\\(25[0-5]\\|2[0-4][0-9]\\|[01]?[0-9][0-9]?\\)\\.\\(25[0-5]\\|2[0-4][0-9]\\|[01]?[0-9][0-9]?\\)\\.\\(25[0-5]\\|2[0-4][0-9]\\|[01]?[0-9][0-9]?\\)\\b"))
     "List of dotted pairs where the CAR is a symbol and the CDR
- is a regular expression for matching the kind of entities
+is a regular expression for matching the kind of entities
 represented by the symbol."
     :type '(alist :key-type symbol :value-type regexp)
     :group 'entities)
