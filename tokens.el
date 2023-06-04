@@ -5,7 +5,7 @@
 ;; Author: Federico G. Stilman <fede@stilman.org>
 ;; Maintainer: Federico G. Stilman <fede@stilman.org>
 ;; Keywords: matching, convenience
-;; Version: 1.0
+;; Version: 0.1.0
 
 ;;; Commentary:
 
