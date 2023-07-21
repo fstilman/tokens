@@ -11,7 +11,7 @@
 
 ;; tokens.el provides functions for matching well-known elements on
 ;; the current line and saving them to the kill ring for easy
-;; yanking.  This elements, that we call "tokens" are easily
+;; yanking.  These elements, that we call "tokens" are easily
 ;; customizable through standard regular expressions.
 ;; Included are regular expressions for matching numbers, emails
 ;; and IP addresses.
